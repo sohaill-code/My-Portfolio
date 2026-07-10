@@ -1,139 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Primary SEO -->
-  <title>Sohail Dev | Portfolio Website | Under Construction</title>
+<!-- Primary SEO -->
+<title>SohailDev | Sohail Shaikh — Freelance Web Developer in Mumbai</title>
+<meta name="description" content="SohailDev — Sohail Shaikh's freelance web development studio in Mumbai. Custom websites and monthly care plans built to bring businesses more calls, bookings, and walk-ins.">
+<meta name="keywords" content="sohaildev, sohail dev, sohail shaikh, sohaildev.in, freelance web developer mumbai, website developer mira bhayandar, business website design india">
+<meta name="author" content="Sohail Shaikh">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<link rel="canonical" href="https://sohaildev.in/">
 
-  <meta name="description" content="Official website of Sohail Dev. Portfolio of a Full Stack Web Developer. Website is currently under construction and will be available soon.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SohailDev">
+<meta property="og:title" content="SohailDev | Sohail Shaikh — Freelance Web Developer in Mumbai">
+<meta property="og:description" content="Custom websites and monthly care plans built to bring businesses more calls, bookings, and walk-ins.">
+<meta property="og:url" content="https://sohaildev.in/">
+<meta property="og:image" content="https://sohaildev.in/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_IN">
 
-  <meta name="keywords" content="Sohail Dev, SohailDev, sohaildev.in, Web Developer, Full Stack Developer, Portfolio, HTML, CSS, JavaScript, React, Node.js">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SohailDev | Sohail Shaikh — Freelance Web Developer in Mumbai">
+<meta name="twitter:description" content="Custom websites and monthly care plans built to bring businesses more calls, bookings, and walk-ins.">
+<meta name="twitter:image" content="https://sohaildev.in/og-image.jpg">
 
-  <meta name="author" content="Sohail Dev">
+<!-- Local / brand signals -->
+<meta name="theme-color" content="#060a14">
+<meta name="geo.region" content="IN-MH">
+<meta name="geo.placename" content="Mumbai">
 
-  <meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 
-  <link rel="canonical" href="https://sohaildev.in/">
-
-  <meta name="theme-color" content="#4f46e5">
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Sohail Dev | Portfolio Website">
-  <meta property="og:description" content="Official portfolio website of Sohail Dev.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://sohaildev.in/">
-  <meta property="og:image" content="https://sohaildev.in/logo.png">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sohail Dev">
-  <meta name="twitter:description" content="Official Portfolio Website">
-  <meta name="twitter:image" content="https://sohaildev.in/logo.png">
-
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico">
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1127EZPEGK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-1127EZPEGK');
-  </script>
-
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Sohail Dev",
-    "url":"https://sohaildev.in/",
-    "jobTitle":"Full Stack Web Developer",
-    "sameAs":[
-      "https://github.com/sohaill-code"
-    ]
-  }
-  </script>
-
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial,sans-serif;
-    }
-
-    body{
-      background:linear-gradient(135deg,#4f46e5,#06b6d4);
-      color:#fff;
-      height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      text-align:center;
-    }
-
-    .container{
-      padding:40px;
-    }
-
-    h1{
-      font-size:3.5rem;
-      margin-bottom:15px;
-    }
-
-    p{
-      font-size:1.2rem;
-      margin-bottom:20px;
-      opacity:.9;
-    }
-
-    .loader{
-      width:60px;
-      height:60px;
-      border:6px solid rgba(255,255,255,.3);
-      border-top:6px solid #fff;
-      border-radius:50%;
-      margin:auto;
-      animation:spin 1s linear infinite;
-    }
-
-    @keyframes spin{
-      to{
-        transform:rotate(360deg);
-      }
-    }
-
-    footer{
-      margin-top:30px;
-      opacity:.8;
-    }
-  </style>
+<!-- Structured data: helps search engines connect "SohailDev" / "Sohail Shaikh" to this exact site -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "SohailDev",
+  "alternateName": ["Sohail Dev", "Sohail Shaikh", "sohaildev.in"],
+  "url": "https://sohaildev.in/",
+  "image": "https://sohaildev.in/og-image.jpg",
+  "description": "Freelance web development studio building websites and monthly care plans for local businesses.",
+  "founder": {
+    "@type": "Person",
+    "name": "Sohail Shaikh"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Mumbai"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mira Bhayandar",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "email": "hello@sohaildev.in",
+  "priceRange": "₹₹"
+}
+</script>
 </head>
-
 <body>
 
-<div class="container">
+<div id="progress"></div>
+<div id="loader">
+  <div class="loader-term" id="loaderText">$ initializing sohaildev.in</div>
+  <div class="loader-bar"><div class="loader-bar-fill" id="loaderFill"></div></div>
+  <div class="loader-pct" id="loaderPct">0%</div>
+</div>
+<canvas id="bg-canvas"></canvas>
+<div id="spotlight"></div>
+<div class="grain"></div>
+<div id="cursor-dot"></div>
 
-<h1>🚧 Sohail Dev 🚧</h1>
+<nav>
+  <div class="logo">sohail<span>.dev</span></div>
+  <ul class="nav-links">
+    <li><a href="#about" data-nav>About</a></li>
+    <li><a href="#skills" data-nav>Skills</a></li>
+    <li><a href="#services" data-nav>Services</a></li>
+    <li><a href="#work" data-nav>Work</a></li>
+    <li><a href="#contact" data-nav>Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta magnetic">Start a Project</a>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+</nav>
 
-<p>
-Website is currently under construction.<br>
-We're building something amazing.<br>
-Stay tuned!
-</p>
-
-<div class="loader"></div>
-
-<footer>
-© 2026 SohailDev.in
-</footer>
-
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#services">Services</a>
+  <a href="#work">Work</a>
+  <a href="#contact">Contact</a>
+  <div class="mobile-menu-footer">Mira Bhayandar, Mumbai — hello@sohaildev.in</div>
 </div>
 
+<header class="hero">
+  <div class="hero-eyebrow">Mumbai, India — Available for Projects</div>
+  <h1>Hey, I'm Sohail —<br><em>I build websites</em> that<br>bring in clients.</h1>
+  <div class="hero-role"><span id="typewriter"></span><span class="cursor"></span></div>
+  <p class="hero-sub">I design and build websites that turn visitors into calls, bookings, and walk-ins — then keep them running with ongoing care plans, updates, and monthly reporting.</p>
+  <div class="hero-actions">
+    <a href="#contact" class="btn-primary magnetic">Get a Free Demo →</a>
+    <a href="#work" class="btn-ghost magnetic">See the Work</a>
+  </div>
+  <div class="hero-meta">
+    <div>SOHAILDEV.IN</div>
+    <div>MIRA BHAYANDAR, MUMBAI</div>
+    <div>EST. 2025</div>
+  </div>
+  <div class="scroll-cue"><div class="scroll-line"></div>Scroll</div>
+</header>
+
+<section class="section" id="about">
+  <div class="reveal">
+    <div class="section-tag">01 / About</div>
+    <h2 class="section-title">A dedicated developer for businesses that need <em>results, not just a website.</em></h2>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>I work directly with business owners to design and build websites that do a job — bring in enquiries, make services easy to understand, and give the business a professional presence people trust.</p>
+      <p>Every project is built from scratch around the business, not a template. Clean structure, fast load times, and a clear path for visitors to actually get in touch — that's the standard I hold every site to.</p>
+      <p>Beyond the build, I offer ongoing care plans so the website and the business's online presence keep working long after launch — updates, content, and a monthly report so you always know what's happening.</p>
+    </div>
+    <div class="fact-list">
+      <div class="fact"><span class="fact-label">Based In</span><span class="fact-value">Mumbai, India</span></div>
+      <div class="fact"><span class="fact-label">What I Build</span><span class="fact-value">Business Websites</span></div>
+      <div class="fact"><span class="fact-label">Also Offer</span><span class="fact-value">Monthly Care Plans</span></div>
+      <div class="fact"><span class="fact-label">Turnaround</span><span class="fact-value">Fast, Direct Communication</span></div>
+      <div class="fact"><span class="fact-label">Stack</span><span class="fact-value">GitHub · Vercel · GoDaddy</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="reveal">
+    <div class="section-tag">02 / Capabilities</div>
+    <h2 class="section-title">What goes into <em>every build.</em></h2>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-col">
+      <h4>Design & Build</h4>
+      <div class="skill-row"><span>Custom Layout & Design</span></div>
+      <div class="skill-row"><span>Responsive, Mobile-First</span></div>
+      <div class="skill-row"><span>Brand-Matched Visuals</span></div>
+      <div class="skill-row"><span>Clean, Fast-Loading Pages</span></div>
+    </div>
+    <div class="skill-col">
+      <h4>Functionality</h4>
+      <div class="skill-row"><span>Contact & WhatsApp Integration</span></div>
+      <div class="skill-row"><span>Interactive Elements & Animation</span></div>
+      <div class="skill-row"><span>Booking / Enquiry Flows</span></div>
+    </div>
+    <div class="skill-col">
+      <h4>After Launch</h4>
+      <div class="skill-row"><span>Google Business Profile Setup</span></div>
+      <div class="skill-row"><span>Basic SEO Configuration</span></div>
+      <div class="skill-row"><span>Ongoing Updates & Support</span></div>
+      <div class="skill-row"><span>Monthly Performance Reports</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="reveal">
+    <div class="section-tag">03 / Services</div>
+    <h2 class="section-title">Built once, <em>maintained monthly.</em></h2>
+  </div>
+  <div class="services-grid reveal">
+    <div class="service-card">
+      <div class="service-name">Starter Site</div>
+      <div class="service-price">One-time build</div>
+      <div class="service-desc">A clean, fast, mobile-first website to get a business online with a professional presence.</div>
+      <ul class="service-list">
+        <li>Up to 5 pages</li>
+        <li>Mobile-optimized</li>
+        <li>Contact / WhatsApp integration</li>
+        <li>Basic SEO setup</li>
+      </ul>
+    </div>
+    <div class="service-card featured">
+      <div class="service-tag-pill">Most Popular</div>
+      <div class="service-name">Shadow-Biz Care Plan</div>
+      <div class="service-price">₹8,000 / month</div>
+      <div class="service-desc">Ongoing management so the site — and the business's online presence — never goes stale.</div>
+      <ul class="service-list">
+        <li>Website updates & fixes</li>
+        <li>Google Business Profile management</li>
+        <li>8 Instagram posts / month</li>
+        <li>Monthly analytics report</li>
+      </ul>
+    </div>
+    <div class="service-card">
+      <div class="service-name">Custom Build</div>
+      <div class="service-price">Scoped on request</div>
+      <div class="service-desc">For businesses that need something beyond a standard site — booking flows, dashboards, or integrations.</div>
+      <ul class="service-list">
+        <li>Custom functionality</li>
+        <li>Booking / scheduling logic</li>
+        <li>Dashboard or admin panel</li>
+        <li>Ongoing dev partnership</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="reveal">
+    <div class="section-tag">04 / Selected Work</div>
+    <h2 class="section-title">Stuff I've <em>actually shipped.</em></h2>
+  </div>
+
+  <div class="project reveal">
+    <div>
+      <div class="project-num">01</div>
+      <div class="project-name">Rev Social Fitness Centre</div>
+      <p class="project-desc">Website for a gym in Mira Road — built to convert visitors into trial sign-ups, with clear pricing, class info, and a direct contact path.</p>
+      <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Bootstrap</span></div>
+      <a href="#contact" class="project-link">Ask to See It</a>
+    </div>
+    <div class="project-visual"><span>Gym Website</span></div>
+  </div>
+
+  <div class="project reveal">
+    <div>
+      <div class="project-num">02</div>
+      <div class="project-name">Sohail Studio</div>
+      <p class="project-desc">Agency landing page for my own web dev practice — dark navy and gold branding, built to pitch local businesses with a demo-first approach.</p>
+      <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      <a href="#contact" class="project-link">Ask to See It</a>
+    </div>
+    <div class="project-visual"><span>Agency Page</span></div>
+  </div>
+
+  <div class="project reveal">
+    <div>
+      <div class="project-num">03</div>
+      <div class="project-name">ContentOS Dashboard</div>
+      <p class="project-desc">A content-planning dashboard built for organizing posts, schedules, and ideas in one clean interface with local data persistence.</p>
+      <div class="project-tags"><span class="tag">Next.js 15</span><span class="tag">Tailwind</span><span class="tag">shadcn/ui</span></div>
+      <a href="#contact" class="project-link">Ask to See It</a>
+    </div>
+    <div class="project-visual"><span>Dashboard</span></div>
+  </div>
+
+  <div class="project reveal">
+    <div>
+      <div class="project-num">04</div>
+      <div class="project-name">This Portfolio</div>
+      <p class="project-desc">The site you're looking at right now — designed and built to reflect the standard I bring to every client project: clean, considered, and built from scratch.</p>
+      <div class="project-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+      <a href="https://sohaildev.in" class="project-link">sohaildev.in</a>
+    </div>
+    <div class="project-visual"><span>You Are Here</span></div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="reveal">
+    <div class="section-tag">05 / Contact</div>
+    <h2 class="section-title">Got a business that <em>needs a website?</em></h2>
+  </div>
+  <div class="contact-grid reveal">
+    <div class="contact-big">
+      Tell me what your business does, and I'll send back a free demo — no commitment, just a look at what's possible. Reach out at <a href="mailto:hello@sohaildev.in">hello@sohaildev.in</a>.
+    </div>
+    <div class="contact-channels">
+      <a href="mailto:hello@sohaildev.in" class="channel">
+        <div><div class="channel-label">Email</div><div class="channel-value">hello@sohaildev.in</div></div>
+        <div class="channel-arrow">→</div>
+      </a>
+      <a href="https://sohaildev.in" class="channel">
+        <div><div class="channel-label">Website</div><div class="channel-value">sohaildev.in</div></div>
+        <div class="channel-arrow">→</div>
+      </a>
+      <a href="#" class="channel">
+        <div><div class="channel-label">Location</div><div class="channel-value">Mira Bhayandar, Mumbai</div></div>
+        <div class="channel-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 Sohail Shaikh — sohaildev.in</div>
+  <div>Built with HTML, CSS & JavaScript</div>
+</footer>
+
+<script src="script.js" defer></script>
 </body>
 </html>
