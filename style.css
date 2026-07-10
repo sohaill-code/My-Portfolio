@@ -18,8 +18,10 @@
     font-family:'Manrope',sans-serif;
     overflow-x:hidden;
     position:relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    user-select:none;
   }
-  ::selection{background:var(--gold);color:var(--black);}
 
   /* grain + gradient atmosphere */
   body::before{
