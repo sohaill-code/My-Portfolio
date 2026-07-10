@@ -1,4 +1,4 @@
-  :root{
+:root{
     --navy-deep:#060a14;
     --navy:#0b1224;
     --navy-panel:#101a30;
@@ -196,7 +196,7 @@
   .hero{
     min-height:100vh;
     display:flex;flex-direction:column;justify-content:center;
-    padding:0 6vw;
+    padding:120px 6vw 60px;
     max-width:1200px;
     opacity:0;
     animation:fadeUp 1s ease .3s forwards;
